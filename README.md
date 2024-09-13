@@ -164,5 +164,6 @@ Feel free to explore and modify the code to enhance the agent’s performance or
 
 1. GitHub Repository for the original Python Snake Game: [patrickloeber/python-fun](https://github.com/patrickloeber/python-fun)
 2. YouTube Tutorial on Q-Learning for Snake: [Code Basics: Snake AI](https://www.youtube.com/watch?v=L8ypSXwyBds)
+3. Medium Article on Bellman Equation: [Sanchit Tanwar](https://medium.com/analytics-vidhya/bellman-equation-and-dynamic-programming-773ce67fc6a7)
 
 ---
