@@ -67,7 +67,7 @@ The network is trained using **backpropagation** to minimize the difference betw
 ├── utils.py             # Helper functions (for plotting training progress)
 ├── README.md            # Project documentation
 ├── requirements.txt     # Python dependencies
-└── model/               # Folder for saving the trained model
+└── assets/              # Folder contains the assets
 ```
 
 ### Files:
@@ -75,7 +75,7 @@ The network is trained using **backpropagation** to minimize the difference betw
 - **`agent.py`**: Defines the reinforcement learning agent, which interacts with the game environment, learns from rewards, and makes decisions.
 - **`model.py`**: Defines the neural network model (Linear Q-Net) and the training process (Q-learning).
 - **`utils.py`**: Provides a utility function for plotting the scores and training progress.
-- **`assets/`**: This folder contains the assets that used in game.
+- **`assets/`**: This folder contains the assets that used in the game.
 
 ---
 
