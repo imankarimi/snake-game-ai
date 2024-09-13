@@ -83,7 +83,7 @@ The network is trained using **backpropagation** to minimize the difference betw
 
 ### 1. Clone the Repository:
 ```
-git clone https://github.com/yourusername/snake_rl.git
+git clone https://github.com/imankarimi/snake-game-ai.git
 cd snake_rl
 ```
 
