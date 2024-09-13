@@ -96,7 +96,7 @@ pip install -r requirements.txt
 ### 3. Run the Game with Reinforcement Learning:
 Run the training process:
 ```
-python agent.py
+python main.py
 ```
 
 This will start the game and train the reinforcement learning agent. The agent will initially make random moves but will improve its performance over time by learning from its actions.

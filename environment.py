@@ -27,7 +27,7 @@ BLACK = (0, 0, 0)
 
 # Define constants for block size and game speed
 BLOCK_SIZE = 20
-SPEED = 100
+SPEED = 20
 
 class SnakeGameAI:
     """
