@@ -1,0 +1,5 @@
+pygame==2.6.0
+torch==2.4.1
+torchvision==0.19.1
+matplotlib==3.9.2
+ipython==8.27.0
