@@ -61,21 +61,21 @@ The network is trained using **backpropagation** to minimize the difference betw
 
 ```
 .
-├── game.py              # Snake game environment (Pygame implementation)
+├── environment.py       # Snake game environment (Pygame implementation)
 ├── agent.py             # Reinforcement Learning agent using Linear Q-Network
 ├── model.py             # Neural network (Linear Q-Net) and Q-learning trainer
-├── helper.py            # Helper functions (for plotting training progress)
+├── utils.py             # Helper functions (for plotting training progress)
 ├── README.md            # Project documentation
 ├── requirements.txt     # Python dependencies
 └── model/               # Folder for saving the trained model
 ```
 
 ### Files:
-- **`game.py`**: Contains the Snake game logic (handling movement, placing food, detecting collisions).
+- **`environment.py`**: Contains the Snake game logic (handling movement, placing food, detecting collisions).
 - **`agent.py`**: Defines the reinforcement learning agent, which interacts with the game environment, learns from rewards, and makes decisions.
 - **`model.py`**: Defines the neural network model (Linear Q-Net) and the training process (Q-learning).
-- **`helper.py`**: Provides a utility function for plotting the scores and training progress.
-- **`model/`**: This folder stores the trained model (saved as `model.pth`).
+- **`utils.py`**: Provides a utility function for plotting the scores and training progress.
+- **`assets/`**: This folder contains the assets that used in game.
 
 ---
 
