@@ -36,16 +36,18 @@ class SnakeGameAI:
     """
 
     # Constructor method to initialize the game screen and snake state
-    def __init__(self, w=640, h=480):
+    def __init__(self, w=640, h=480, speed=SPEED):
         """
         This initializes the game environment. It sets up the game display, dimensions, and initializes a reset function
         that defines the snake's starting position and direction.
         :param w:
         :param h:
+        :param speed:
         """
 
         self.w = w  # Width of game screen
         self.h = h  # Height of game screen
+        self.speed = speed  # Speed of game
         # Initialize the display and set window title
         self.display = pygame.display.set_mode((self.w, self.h))
         pygame.display.set_caption('Snake')
@@ -124,7 +126,7 @@ class SnakeGameAI:
 
         # Update the game UI and control the frame rate
         self._update_ui()
-        self.clock.tick(SPEED)
+        self.clock.tick(self.speed)
 
         return reward, game_over, self.score
 
