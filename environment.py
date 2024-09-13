@@ -6,7 +6,7 @@ import numpy as np
 
 # Initialize Pygame and set up fonts for rendering text
 pygame.init()
-font = pygame.font.Font('arial.ttf', 25)  # Set up a font for score display
+font = pygame.font.Font('assets/font/arial.ttf', 25)  # Set up a font for score display
 
 # Enum for snake direction
 class Direction(Enum):
